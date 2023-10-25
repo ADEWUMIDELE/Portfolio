@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#Header{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image:url("BgImage.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    
+    
+    
+    
+}
+
+.head{
+    width: 80%;
+    margin: auto;
+    padding: 3% 0px;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.welcome h4{
+    
+    letter-spacing: 2px;
+    font-style: italic;
+}
+ span{
+    color: #f9004d;
+}
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+    letter-spacing: 1px;
+}
+
+.welcome nav ul li :hover{
+    
+    color: #f9004d;
+    cursor: pointer;
+}   
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Ade{
+    margin: 5%;
+    margin-top: 7%;
+    
+   
+}
+.Ade h4, h2{
+    padding: 8px 0px;  
+    letter-spacing: 4px;
+}
+.Ade h2 {
+    font-size: 40px;
+}
+.content{
+    font-size: 16px;
+    padding: 0 5%;
+    width: 600px;
+    color: #ffffff;
+    line-height: 30px ;
+    text-align: justify;
+    
+}
+
+.cta button{
+    margin-top: 5%;
+    color: #ffffff;
+    background: #f9004d;
+    padding: 1% 4%;
+    font-weight: bold;
+    border: 1px solid #f9004d ;
+    border-radius: 8px;
+    float: right;
+    width: 100px;
+}
+
+button:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #ffffff ;
+}
+
+#About{
+    background-color: #292828;
+    width: 100%;
+    padding: 100px 0px;
+}
+#About img {
+    height: auto;
+    width: 430px;
+}
+.letter{
+    width: 600px;
+    padding-left:  5%;
+    
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.letter h4{
+    color: #ffffff;
+    font-size: 40px;
+}
+.letter h5{
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.letter p{
+    color: #ffffff;
+    padding-top: 5%;
+    line-height: 30px ;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+#Skill{
+    background-color: #1b1a1a;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.sup{
+    width: 80%;
+    margin: auto;
+
+}
+.box{
+    background: #292828;
+    height: 250px;
+    width: 250px;
+    padding: 40px 3px;
+    border: 0.1px solid #fffbfd ;
+    border-radius: 10%;
+    box-shadow: 0px 0px 4px  #f6f6f6;
+            
+}
+
+.box:hover{
+    color: #ffffff;
+    box-shadow: 0px 5px 15px #f9004d;
+    background: #0f0f0f;
+    
+}
+.analy{
+    line-height: 30px;
+    color:  #f8b1c8;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-left: 18%;
+    /* text-align: center; */
+
+   
+}
+.analy h4{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.sup{
+    display: flex;
+    justify-content: space-between;
+}
+.analy{
+    padding: 10px 0px;
+    padding-bottom: 17px;
+}
+.ctaa button{
+    margin-top: 6%;
+    margin-right: 5%;
+    font-size: 10px;
+    color: #ffffff;
+    background: #f9004d;
+    padding: 1% 4%;
+    font-weight: bold;
+    border: 1px solid #f9004d ;
+    border-radius: 5px;
+    float: right;
+}
+
+.ctaa button:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #ffffff ;
+    /* cursor: pointer; */
+}
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+}
+#contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.call a{
+    width: fit-content;
+    color: #ffffff;
+    text-decoration: none;
+    background: #f9004d;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px ;
+}
+.call a:hover{
+    color: #f9004d;
+    background: transparent;
+    border: 1px solid #f9004d;
+}
+.social {
+    margin-top: 20px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.last{
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: smaller;
+}
